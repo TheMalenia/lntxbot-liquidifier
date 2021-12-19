@@ -7,7 +7,7 @@ from random import randrange
 api_id = config.API_ID
 api_hash = config.API_HASH
 
-INVOICE = "/paynow invoice"
+INVOICE = "/send BALANCE @AnotherAccUserName"
 
 with TelegramClient("session-name" , api_id, api_hash) as client:
    print("Started.")
